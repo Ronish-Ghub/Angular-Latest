@@ -1,0 +1,6 @@
+<p>image works!</p>
+<button (click)='togg()'>Rotate</button>
+<button (click)='scal()'>Enlarge</button>
+<div style="margin-left: 10%;">
+    <img  [@img]="isdefault?'default':'rotated'" [@img]="isscal?'scale2':'scale1'" src="https://i.pinimg.com/736x/68/a1/0b/68a10b7e2d03b94ee3c7b9be501ad8be.jpg" width="150px" height="150px" >
+</div>
